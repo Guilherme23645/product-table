@@ -1,10 +1,10 @@
 const SearchBar = () => {
   return (
     <form>
-        <input type="text" placeholder="Search..." />
+        <input type="text" placeholder="Search..." /><br />
         <label>
             <input type="checkbox" />
-            <br />
+            {' '}
             Only show products in stock
         </label>
     </form>
