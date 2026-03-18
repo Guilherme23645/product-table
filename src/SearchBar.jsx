@@ -1,9 +1,16 @@
-const SearchBar = () => {
+const SearchBar = ({filterText, inStockOnly}) => {
   return (
     <form>
-        <input type="text" placeholder="Search..." /><br />
+        <input
+            type="text"
+            value={filterText}
+            placeholder="Search..." 
+        /><br />
         <label>
-            <input type="checkbox" />
+            <input
+                type="checkbox"
+                value={inStockOnly}
+            />
             {' '}
             Only show products in stock
         </label>
