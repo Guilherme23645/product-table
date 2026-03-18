@@ -4,7 +4,10 @@ const ProductRow = ({product}) => {
       {product.name}
     </span>
   return (
-    <div>ProductRow</div>
+    <tr>
+      <td>{name}</td>
+      <td>{product.price}</td>
+    </tr>
   )
 }
 
