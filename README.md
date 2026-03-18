@@ -1,16 +1,33 @@
-# React + Vite
+# product-table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+React.dev provides a tutorial that teaches you to *think in react*. That means dividing UI into components, creating a static version of the UI first, defining states and then finally letting data flow through components. The application built is a filterable product table
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tools
 
-## React Compiler
+- React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Pre-requisites
 
-## Expanding the ESLint configuration
+- Git
+- Node.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instructions
+
+- Clone the repository with one of the following commands:
+  - **HTTPS:** `git clone https://github.com/Guilherme23645/product-table.git`
+  - **SSH:** `git clone git@github.com:Guilherme23645/product-table.git`
+- In your terminal, type the following commands:
+  - `npm install` to install necessary dependencies in the cloned repository
+  - `npm run dev` or `npx vite --host` for VMS
+
+## Screenshots
+
+### Code
+
+<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/6a6de511-fd03-4235-9740-4e633e11bfc9" />
+
+### Interface
+
+<img width="235" height="268" alt="image" src="https://github.com/user-attachments/assets/ba40a1ae-a881-41d1-bc9a-d84bf9dc9f87" />
