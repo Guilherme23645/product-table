@@ -1,6 +1,13 @@
 const SearchBar = () => {
   return (
-    <div>SearchBar</div>
+    <form>
+        <input type="text" placeholder="Search..." />
+        <label>
+            <input type="checkbox" />
+            {' '}
+            Only show products in stock
+        </label>
+    </form>
   )
 }
 
